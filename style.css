@@ -1,0 +1,29 @@
+html{
+    background-color: #000;
+}
+
+header{
+    background-color: #E6E6E6;
+}
+
+div.contenido section{
+    color: #fff;
+    width: 50%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #1e1e1e;
+
+}
+
+div.contenido.section.img.derecha{
+    float: right;
+    margin-right: 15px;
+
+
+}
+
+
+
+
+
+
