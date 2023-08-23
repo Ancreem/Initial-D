@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,500;1,200&display=swap');
+
+
+
 body{
+    font-family: 'Kanit', sans-serif;
     background-color: #0C130E;
 }
 
@@ -10,12 +15,35 @@ header{
     
 }
 
+
 .wrapper{
     width: 90%;
     max-width: 10000px;
     margin: auto;
     overflow: hidden;
     
+}
+
+header .logo{
+    
+    float: left;
+    line-height: 200px;
+}
+
+header nav{
+    font-size: 200px;
+    float: right;
+}
+
+header nav a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 20px 40px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+
 }
 
 div.contenido section img{
