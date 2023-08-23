@@ -1,26 +1,40 @@
-html{
-    background-color: #000;
+body{
+    background-color: #0C130E;
 }
 
 header{
-    background-color: #E6E6E6;
+    width: 100%;
+    overflow: hidden;
+    background:#E6E6E6;
+    margin-bottom: 20px;
+    
 }
 
-div.contenido section{
-    color: #fff;
-    width: 50%;
-    margin: 20px auto;
-    padding: 15px;
-    background-color: #1e1e1e;
-
+.wrapper{
+    width: 90%;
+    max-width: 10000px;
+    margin: auto;
+    overflow: hidden;
+    
 }
 
-div.contenido.section.img.derecha{
+div.contenido section img{
     float: right;
-    margin-right: 15px;
-
-
+    
 }
+
+section{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
 
 
 
