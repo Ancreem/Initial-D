@@ -5,67 +5,51 @@
 body{
     font-family: 'Kanit', sans-serif;
     background-color: #0C130E;
+    color: white;
 }
 
 header{
     width: 100%;
-    overflow: hidden;
-    background:#E6E6E6;
-    margin-bottom: 20px;
-    
-}
-
-
-.wrapper{
-    width: 90%;
-    max-width: 10000px;
+    background:#E6E6E6; 
     margin: auto;
-    overflow: hidden;
+    display: flex;
+    
     
 }
 
-header .logo{
-    
+header.logo{
     float: left;
-    line-height: 200px;
-}
-
-header nav{
-    font-size: 200px;
-    float: right;
-}
-
-header nav a{
-    display: inline-block;
-    color: black;
-    text-decoration: none;
-    padding: 20px 40px;
-    line-height: normal;
-    font-size: 20px;
-    font-weight: bold;
-
-}
-
-div.contenido section img{
-    float: right;
+    
     
 }
 
-section{
-    color: white;
+
+nav{
+    text-align: right;
+    display: flex;
+    
+}
+
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 30px 60px;
+    margin: 20px
+    
 }
 
 
 
 
+.contenido p{
+    text-align: left;
+}
 
+.poster{
+    float: left;
+}
 
+.sinopsis{
 
-
-
-
-
-
-
-
-
+}
