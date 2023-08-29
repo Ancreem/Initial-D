@@ -22,7 +22,7 @@ body{
 }
 
 .container{
-    max-width: 1400px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -58,10 +58,27 @@ header a:hover{
     color: red;
 }
 
-
 .casilla-prin{
     background: red;
     text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+#descricion h1 {
+    text-align: center;
+}
+
+.carta-clara{
+    background: #404040;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.carta-oscura{
+    background: #1E1E1E;
+    padding: 5px;
+    margin-top: 20px;
 }
 
 
