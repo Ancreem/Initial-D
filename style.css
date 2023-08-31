@@ -31,8 +31,11 @@ header{
 }
 
 header .logo{
-    margin: 0;
-    padding: 30px 35px ;
+    padding-bottom: 20px ;
+}
+
+.logo img{
+    width: 300px;
 }
 
 header .container{
@@ -65,7 +68,7 @@ header a:hover{
     margin-top: 20px;
 }
 
-#descricion h1 {
+#descripcion h1 {
     text-align: center;
 }
 
@@ -73,6 +76,7 @@ header a:hover{
     background: #404040;
     padding: 5px;
     margin-top: 20px;
+    
 }
 
 .carta-oscura{
@@ -80,6 +84,50 @@ header a:hover{
     padding: 5px;
     margin-top: 20px;
 }
+
+@media (min-width: 720px){
+    
+    header .logo{
+        padding-top: 10px;
+    }
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-top: 10px;
+        padding-right: 20px;
+    }
+    .carta-clara{
+        display: flex;
+        padding: 4vh;
+        background: #404040;
+        border-radius: 35px;
+    }
+    .parrafo{
+        width: 50%;
+        margin-top: 60px;
+    }
+    .img-izq{
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-izq img{
+        width: 75%;
+        height: 75%;
+        border-radius: 15px;
+    }
+    .titulo{
+        position: absolute;
+        display: flex;
+    }
+    
+}
+
+
 
 
 
