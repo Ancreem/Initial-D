@@ -198,13 +198,15 @@ header a:hover{
 .cont-trailer{
     display: flex;
     background-color: #1E1E1E;
-    margin-top: 20px;  
-    width: 100%;
+    margin-top: 20px;
+    align-items: center;  
 }
 
 .sub-trailer {
     margin-top: 15px;
 }
+
+
 .sub-trailer h2 {
     text-align: center;
     color: white;
@@ -216,13 +218,11 @@ header a:hover{
 
     
 }
-
 .trailer{
     display: flex;
-    margin-left: 20%;
-    margin-right: 25%;
+    justify-content: center;
+    align-items: center;
 }
-
 /*----------------------------------------Episodios--------------------------------------*/
 
 .container-episodios{
