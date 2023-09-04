@@ -1,0 +1,153 @@
+@media (max-width: 900px){
+    header .logo{
+        padding-bottom: 20px ;
+    }
+
+    h1{
+        font-size: 2.0em;
+
+    }
+    
+    h2{
+        font-size: 2.0em;
+
+    }
+    
+    h3{
+        font-size: 4.5em;
+
+    }
+    
+
+    header .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 25px;
+    }
+
+    header a{
+        padding: 5px 10px;
+        text-decoration: none;
+        color: black;
+    }
+
+    /*-------------------------------------Equipos----------------------------------------*/
+
+    /*Contenido izquierda*/
+
+    .cont-equipo-izquierda{
+        display: flex;
+        flex-direction: column;
+    }
+    .sub-equipo-izquierda{
+        margin: auto;
+        text-align: center;
+    }
+    .cont-sub-text-equipo-izquierda{
+        width: 100%;
+    }
+    .texto-equipo-izquierda{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding: 4%;
+    }
+    .imagen-equipo-izquierda{
+        width: 100%;
+        padding: 1%;
+        text-align: center
+    }
+
+    /*Contenido Derecha*/
+
+
+    .cont-equipo-derecha{
+        display: flex;
+        flex-direction: column;
+    }
+    .sub-equipo-derecha{
+        margin: auto;
+        text-align: center;
+    }
+    .cont-sub-text-equipo-derecha{
+        width: 100%;
+    }
+    .texto-equipo-derecha{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding: 4%;
+    }
+    .imagen-equipo-derecha{
+        width: 100%;
+        padding: 1%;
+        text-align: center
+    }
+
+    /*-----------------------------------------INICIO--------------------------------------*/
+    /*Trailer*/
+
+    .cont-poster{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .sub-poster{
+        margin: auto;
+        text-align: center;
+        margin-top: 0px;
+
+    }
+    .cont-sub-text-poster{
+        width: 100%;
+
+    }
+    .texto-poster{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+
+    }
+    .imagen-poster{
+        text-align: center
+        
+    }
+    
+    /*-----------------------------------------Episodios--------------------------------------*/
+    .cont-episodios{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .sub-episodios{
+        margin: auto;
+        text-align: center;
+        margin-top: 0px;
+
+    }
+    .cont-sub-text-episodios{
+        width: 100%;
+    }
+    .mega-episodio{
+        padding-top: 70px;
+    }
+    .mega-episodio iframe {
+        width: 426px;
+        height: 240px;
+    }
+
+    
+}
+
+
+
+
+
+
