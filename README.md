@@ -1,6 +1,6 @@
 # Proyecto InitialD
 
-![Logo de InitialD](resources/IconoPag.png)
+![Logo de InitialD](resources/logo-readme.png)
 
 Este es un proyecto web relacionado con la serie de anime "Initial D" que proporciona información sobre los equipos de carreras callejeras en la serie. Aquí encontrarás detalles sobre los equipos, sus miembros y su importancia en la trama. Además, se proporcionan enlaces a episodios de anime y otra información relacionada con la serie.
 
