@@ -222,7 +222,14 @@ header a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 30px;
 }
+
+.trailer iframe{
+    width: 854px;
+    height: 480px;
+}
+
 /*----------------------------------------Episodios--------------------------------------*/
 
 .container-episodios{
@@ -250,19 +257,22 @@ header a:hover{
     border-radius: 100px;
     text-align: center;
     padding: 20px;
+    
 
 }
 
 .mega-episodio{
-    padding: 40px;
+    padding-top: 20px;
+    margin: 20px;
     background-color: #361414;
-    border-radius: 150px;
-    
+    align-items: center;
+    border-radius: 50px;
+
 }
 
 .mega-episodio iframe {
-    width: 1280px;
-    height: 720px;
+    width: 854px;
+    height: 480px;
 }
 
 

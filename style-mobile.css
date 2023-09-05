@@ -120,6 +120,7 @@
         
     }
     
+    
     /*-----------------------------------------Episodios--------------------------------------*/
     .cont-episodios{
         display: flex;
@@ -136,13 +137,23 @@
         width: 100%;
     }
     .mega-episodio{
-        padding-top: 70px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
     }
     .mega-episodio iframe {
         width: 426px;
         height: 240px;
-    }
 
+    }
+    .mega-episodio{
+        margin: 20px;
+        background-color: #751616;
+        align-items: center;
+    
+    }
+    
     
 }
 
